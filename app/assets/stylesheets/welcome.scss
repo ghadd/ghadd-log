@@ -5,19 +5,15 @@
 /* Desktop - 1 */
 body {
   position: relative;
-  width: 1440px;
-  height: 1024px;
+  width: 100%;
+  height: 100%;
 
   background: url(image-path("welcome.jpg"));
 }
 
 /* Hello, World! */
 #hello-world {
-  position: absolute;
-  width: 666px;
-  height: 84px;
-  left: calc(50% - 666px / 2);
-  top: calc(50% - 84px / 2 - 126px);
+  position: relative;
 
   font-family: Courier Prime;
   font-style: normal;
@@ -33,11 +29,7 @@ body {
 /* I’m Dan and I’m into AI, ML and bunch of other stuff, which I am sharing here. */
 
 #sub-hello-world {
-  position: absolute;
-  width: 816px;
-  height: 187px;
-  left: calc(50% - 816px / 2);
-  top: calc(50% - 187px / 2 + 9.5px);
+  position: relative;
 
   font-family: Courier Prime;
   font-style: normal;
@@ -52,6 +44,7 @@ body {
 /* Add a black background color to the top navigation */
 .topnav {
   background-color: #333;
+  opacity: 80%;
   overflow: hidden;
 }
 
