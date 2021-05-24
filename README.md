@@ -1,24 +1,16 @@
-# README
+# Ghadd-log
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Features
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+* [x] Getting Started with Rails
+* [x] Auth (w/ [clearance](https://github.com/thoughtbot/clearance/))
+* [ ] Different user's modes
+* [ ] Filtering by tags
+* [ ] Filtering by category
+* [x] Pagination (w/ [will_paginate](https://github.com/mislav/will_paginate))
+* [ ] Searching post by name
+* [ ] Images loading
+* [ ] Heroku deployment
+* [ ] Testing
+* [ ] JSON API
+* [ ] Docker Compose
