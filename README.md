@@ -13,4 +13,4 @@
 * [ ] Heroku deployment
 * [ ] Testing
 * [ ] JSON API
-* [ ] Docker Compose
+* [x] Docker Compose
