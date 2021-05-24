@@ -4,7 +4,7 @@
 
 * [x] Getting Started with Rails
 * [x] Auth (w/ [clearance](https://github.com/thoughtbot/clearance/))
-* [ ] Different user's modes
+* [x] Different user's modes
 * [x] Filtering by tags
 * [x] Filtering by category
 * [x] Pagination (w/ [will_paginate](https://github.com/mislav/will_paginate))
