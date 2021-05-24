@@ -1,0 +1,5 @@
+3f4a7218a4a4923a0e7ce1b2eb0d2888ce30da58		branch 'archive' of https://github.com/rails/activestorage
+558fdb00682e677a8b89925fd28f09282dc5e210		branch 'fix-test-failures' of https://github.com/rails/activestorage
+b6ee9515227d01eae9823b6bfb78ae14a9ca0de1		branch 'master' of https://github.com/rails/activestorage
+30edeab57fbf709d8aeece0eccd78aae311b4dee		branch 's3-slimdown' of https://github.com/rails/activestorage
+37f7cf8daf0faaf90e6b5548244e6038097097b3	not-for-merge	tag 'v0.1' of https://github.com/rails/activestorage

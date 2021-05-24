@@ -9,7 +9,7 @@
 * [ ] Filtering by category
 * [x] Pagination (w/ [will_paginate](https://github.com/mislav/will_paginate))
 * [ ] Searching post by name
-* [ ] Images loading
+* [x] Images loading
 * [ ] Heroku deployment
 * [ ] Testing
 * [ ] JSON API

@@ -1,0 +1,6 @@
+# pack-refs with: peeled fully-peeled sorted 
+3f4a7218a4a4923a0e7ce1b2eb0d2888ce30da58 refs/heads/archive
+558fdb00682e677a8b89925fd28f09282dc5e210 refs/heads/fix-test-failures
+b6ee9515227d01eae9823b6bfb78ae14a9ca0de1 refs/heads/master
+30edeab57fbf709d8aeece0eccd78aae311b4dee refs/heads/s3-slimdown
+37f7cf8daf0faaf90e6b5548244e6038097097b3 refs/tags/v0.1

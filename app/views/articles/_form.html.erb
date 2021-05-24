@@ -3,10 +3,21 @@
     <%= form.label :status %><br>
     <%= form.select :status, ['public', 'private', 'archived'], selected: 'public' %>
   </div>
-  
+
   <div>
     <%= form.label :title %><br>
     <%= form.text_field :title %>
+
+    <%= debug article.image.attached? %>
+    
+    <div>
+      <% if article.image.attached? %>
+        <%= image_tag article.image, style: "width: 200px, display: block" %>
+      <% end %>
+
+      <%= form.label :image%>
+      <%= form.file_field :image%>
+    </div>
     <% article.errors.full_messages_for(:title).each do |message| %>
       <div><%= message %></div>
     <% end %>

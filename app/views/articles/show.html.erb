@@ -2,6 +2,10 @@
 
 <p><%= @article.body %></p>
 
+<% if @article.image.attached? %>
+  <%= image_tag @article.image %>
+<% end %>
+
 <ul>
   <li><%= link_to "Edit", edit_article_path(@article) %></li>
   <li><%= link_to "Destroy", article_path(@article),

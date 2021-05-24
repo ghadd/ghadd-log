@@ -26,6 +26,9 @@ gem 'will_paginate', '~> 3.1.0'
 
 gem 'rb-readline'
 
+# Active Storage for documents
+gem 'activestorage'
+
 # Use Redis adapter to run Action Cable in production
 # gem 'redis', '~> 4.0'
 # Use Active Model has_secure_password
