@@ -34,14 +34,6 @@ def index
           article.body.downcase.include? params[:search].downcase 
         }
       end
-
-      print("\n\n\n\n")
-      
-      for result in @results do
-        print(result)
-      end
-
-      print("\n\n\n\n")
     end    
   end
 

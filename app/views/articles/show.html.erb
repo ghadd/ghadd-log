@@ -6,12 +6,19 @@
   <%= image_tag @article.image %>
 <% end %>
 
-<ul>
-  <li><%= link_to "Edit", edit_article_path(@article) %></li>
-  <li><%= link_to "Destroy", article_path(@article),
-                  method: :delete,
-                  data: { confirm: "Are you sure?" } %></li>
-</ul>
+<% if current_user %>
+  <% if current_user.email == 'danyatimachov@gmail.com' %>
+  <h3>Admin panel</h3>
+    <ul>
+      <li><%= link_to "Edit", edit_article_path(@article) %></li>
+      <li><%= link_to "Destroy", article_path(@article),
+                      method: :delete,
+                      data: { confirm: "Are you sure?" } %></li>
+    </ul>
+  <% end %>
+<% else %>
+    Unauthorized
+<% end %>
 
 <h2>Comments</h2>
 <%= render @article.comments %>

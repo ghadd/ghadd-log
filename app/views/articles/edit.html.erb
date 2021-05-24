@@ -1,3 +1,11 @@
 <h1>Edit Article</h1>
 
-<%= render "form", article: @article %>
+<% if current_user %>
+    <% if current_user.email == 'danyatimachov@gmail.com' %>
+        <%= render "form", article: @article %>
+    <% else %>
+        Only admin can edit articles
+    <% end%>
+<% else %>
+    Unauthorized
+<% end %>

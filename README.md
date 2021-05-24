@@ -5,10 +5,10 @@
 * [x] Getting Started with Rails
 * [x] Auth (w/ [clearance](https://github.com/thoughtbot/clearance/))
 * [ ] Different user's modes
-* [ ] Filtering by tags
-* [ ] Filtering by category
+* [x] Filtering by tags
+* [x] Filtering by category
 * [x] Pagination (w/ [will_paginate](https://github.com/mislav/will_paginate))
-* [ ] Searching post by name
+* [x] Searching post by name
 * [x] Images loading
 * [ ] Heroku deployment
 * [ ] Testing
