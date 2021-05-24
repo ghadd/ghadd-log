@@ -1,0 +1,22 @@
+version: "2"
+services:
+  db:
+    image: mysql
+    ports:
+      - "3307:3306"
+    environment:
+      MYSQL_USER: ${MYSQL_USER}
+      MYSQL_ROOT_PASSWORD: ${MYSQL_PASS}
+      MYSQL_PASSWORD: ${MYSQL_PASS}
+      MYSQL_DATABASE: MYSQL_DB=ghadd_log
+  web:
+    build: .
+    command: bundle exec rails s -p 3000
+    volumes:
+      - .:/app
+    ports:
+      - "3000:3000"
+    links:
+      - db:sql_srv
+    depends_on:
+      - db
